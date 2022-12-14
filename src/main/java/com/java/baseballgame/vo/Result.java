@@ -14,6 +14,14 @@ public class Result {
         if(strike == 3) this.isAnswer = true;
     }
 
+    public int getStrike() {
+        return strike;
+    }
+
+    public int getBall() {
+        return ball;
+    }
+
     public String getResult(){
         String str = "";
         if(strike == 0 && ball == 0)
